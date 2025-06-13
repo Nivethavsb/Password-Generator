@@ -1,15 +1,45 @@
-Secure Password Generator
-This simple tool creates strong, random passwords. It's designed to make passwords that are both secure and easy to read, by avoiding letters and numbers that look similar (like l and 1).
 
-How to Use
-Save the code as a Python file (e.g., password_generator.py).
-Open your terminal or command prompt.
-Go to the folder where you saved the file.
-Run the script with this command:
-Bash
-python password_generator.py
-The script will then show you a new, secure password.
+ 🔐 Password Generator (Python)
 
-Example Password
-@-gA(Pq_{C[_
-(Each time you run it, you'll get a different password.)
+Welcome to the **Password Generator** project written in Python! This is a simple and secure tool that helps you generate strong, random passwords to keep your online accounts safe.
+
+🧠 How It Works
+
+- The program lets you specify:
+  - The desired **password length**
+  - Whether to include:
+    - **Uppercase letters**
+    - **Lowercase letters**
+    - **Numbers**
+    - **Symbols**
+- It then generates a completely random password based on your preferences.
+- The generated password is displayed instantly.
+
+
+🛠️ Requirements
+
+- Python 3.x
+
+
+▶️ How to Run
+
+1. Clone the repository or download the Python script:
+   ```bash
+   git clone https://github.com/yourusername/password-generator.git
+   cd password-generator
+   With All Character Types (Length: 12)
+   
+Example Outputs:
+Generated Password: dT#9v@Lx!pQ2
+
+🔠 Only Letters and Numbers (Length: 10)
+
+Generated Password: T8mL29kQwE
+
+🔢 Only Numbers (Length: 8)
+
+Generated Password: 49281736
+
+🔣 Only Symbols (Length: 6)
+
+Generated Password: #@!%$&
